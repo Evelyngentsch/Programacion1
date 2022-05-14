@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Distancias</title>
+</head>
+
+<body>
+    <script>
+        var distancia
+
+        distancia = prompt('Ingrese una distancia en metros', '')
+
+        if (distancia <= 1000) {
+            document.write('Para esa distancia te recomendados ir a pie.')
+        }
+        else if (distancia <= 10000) {
+            document.write('Para esta distancia te recomendamos ir en bicicleta.')
+        }
+        else if (distancia <= 30000) {
+            document.write('Para esa distancia te recomendamos ir en colectivo.')
+        }
+        else if (distancia <= 100000) {
+            document.write('Para esa distancia te recomendamos ir en auto.')
+        }
+        else {
+            document.write('Para esa distancia te recomendamos ir en avión.')
+        }
+
+    </script>
+</body>
+
+</html>
