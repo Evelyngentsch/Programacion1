@@ -1,0 +1,44 @@
+.contenedor {
+    /*display: inline-flex;
+flex-direction: row; */
+    display: flex;
+    justify-content: center;
+
+}
+
+.rosa {
+    background-color: rgb(245, 109, 132);
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: fantasy;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.verde {
+    background-color: rgb(96, 219, 96);
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: fantasy;
+    font-size: 20px;
+    text-align: center;
+}
+
+.violeta {
+    background-color: rgb(199, 90, 199);
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: fantasy;
+    font-size: 20px;
+    text-align: center;
+}
