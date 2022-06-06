@@ -1,0 +1,11 @@
+.hero{
+    background: url(../img/navbar1.webp);
+    background-size: cover;
+    height: 50vh;
+    min-height: 600px;
+}
+
+h1{
+    font-family: fantasy;
+
+}
