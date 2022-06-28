@@ -13,10 +13,6 @@
 .btn-outline-success{
     font-family: 'Playfair Display', serif;
 }
-a:hover{
-    background-color: beige;
-    color: black;
-}
 
 .footer{
 background-color: grey;
@@ -44,4 +40,14 @@ font-family: 'Playfair Display', serif;
 
 p{
     font-family: 'Playfair Display', serif;
+}
+
+.container{
+padding: 20px;
+box-sizing: border-box;
+}
+
+.card-group{
+    padding: 20px;
+box-sizing: border-box;
 }
